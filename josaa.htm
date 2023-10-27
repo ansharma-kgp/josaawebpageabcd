@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--- Student Welfare Group Tech Team task
+    Name-Ansh Sharma
+    Roll Number- 23CS30005
+    Josaa sign up form recreated using html and basic css-->
+    <head>
+        <meta charset="UTF-8">
+        <title>J.O.S.A.A sign up form </title>
+        <link rel="stylesheet" href="form_styles.css" >
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="image">
+                    <img name='josaa' src="https://cdnbbsr.s3waas.gov.in/s313111c20aee51aeb480ecbd988cd8cc9/uploads/2022/09/2022091261.png" alt="JoSAA logo" width="200" height="100">
+                    <img name="csab" src="https://cdnbbsr.s3waas.gov.in/s313111c20aee51aeb480ecbd988cd8cc9/uploads/2022/08/2022081235.png" alt="CSAB" width="100" height="100">
+                </div>
+                <div class="text">
+                    <h5>संयुक्त सीट आवंटन प्राधिकरण</h5>
+                    <h1>Joint Seat Allocation Authority</h1>
+                    <h3>Admission and eCounselling Services for Session 2023</h3>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3 name="head">Student Registration Form</h3>
+            <p name="init">Fill this form <em>correctly</em> to enter the <a href='https://josaa.nic.in'>Joint Seat Allocation Authority(JoSAA)</a> counselling process.</p>
+            <form method="post" action="data.txt">
+                <fieldset>
+                    <label name='a' for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required />
+                    </label>
+                    <label name='a' for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required />
+                    </label>
+                    <label name='a' or="email">Enter Your Email: <input id="email" name="email" type="email" required />
+                    </label>
+                    <label name='a' for="roll-no"> Enter your JEE Advanced Roll number: <input type='text' id='roll-no' required> </label>
+                    <p>Gender: </p>
+                    <label for="male"><input type='radio' name='gender' id='male'> Male</label>
+                    <label for="female"><input type='radio' name='gender' id='female'> Female</label>
+                    <label for="other"><input type='radio' name='gender' id='other'> Other</label>
+                    <label name="a" for="date">Date of Birth: <input type='date' id='date' name='dob'></label>
+                </fieldset>
+                <fieldset>
+                    <label for="profile-picture">Upload your Profile-Picture: <input type="file" id='profile-picture' name='pic' required></label>
+                    <p>Select the type of Photo-identity card you are uploading:
+                        <select required>
+                            <option disabled>(select-one)</option>
+                            <option>Aadhar Card</option>
+                            <option>Pan Card</option>
+                            <option>Voter Card</option>
+                            <option>Passport</option>
+                            <option>Other</option>
+                        </select>
+                    </p>
+                    <label for="id1">Upload the selected Photo-identity card: <input type='file' id='id1' required></label>
+                    <label name="a" for="address">Address: <br><textarea id="address" name="adr" required rows="2" cols="40"></textarea>  </label>
+                    <label name="a">School's name and Address: <br><textarea type='text' required id='scl' rows="2" cols="40"></textarea></label>
+                    <label name="a" for="pwd">JEE Advanced login Password: <input type='password' id='pwd' required></label>
+                </fieldset>
+                <fieldset>
+                    <label name="a" for="verify"><input type='checkbox' required id='verify'> I verify that all the information I have entered is <strong>correct and authentic</strong>.</label>
+                </fieldset>
+                <input type="submit" name="submit">
+            </form>
+        </section>
+        <section>
+            <h1>Table of top 10 choices that are taken by the students during JoSAA counselling</h1>
+            <table class="top10" width="700" height="500">
+                <thead>
+                <tr>
+                    <td><strong>S.No</strong></td>
+                    <td><strong>Institute name</strong></td>
+                    <td><strong>Program</strong></td>
+                    <td><strong>Degree</strong></td>
+                </tr>
+                </thead>
+                <tr>
+                    <td>1.</td>
+                    <td>Indian Institute of Technology, Bombay</td>
+                    <td>Computer Science and Engineering</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Indian Institute of Technology, Delhi</td>
+                    <td>Computer Science and Engineering</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Indian Institute of Technology, Delhi</td>
+                    <td>Computer Science and Engineering</td><td>5 year Dual Degree</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Indian Institute of Technology, Madras</td>
+                    <td>Computer Science and Engineering</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Indian Institute of Technology, Kanpur</td>
+                    <td>Computer Science and Engineering</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Indian Institute of Technology, Kharagpur</td>
+                    <td>Computer Science and Engineering</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Indian Institute of Technology, Delhi</td>
+                    <td>Mathematics and Computing</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Indian Institute of Technology, Roorkee</td>
+                    <td>Computer Science and Engineering</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>Indian Institute of Technology, Bombay</td>
+                    <td>Electrical Engineering</td><td>4 year B.Tech</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>Indian Institute of Technology, Kharagpur</td>
+                    <td>Computer Science and Engineering</td><td>5 year Dual Degree</td>
+                </tr>
+            </table>
+         </section>
+    </body>
+</html>
